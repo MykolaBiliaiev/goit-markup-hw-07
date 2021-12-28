@@ -901,16 +901,16 @@ fill: #FFFFFF;
 
 /* filters section */
 
-.filters-buttons {
+.filters-list {
   display: flex;
   justify-content: center;
 }
 
-.filters-container {
+.filters {
   margin-bottom: 50px;
 }
 
-.our-projects-filters {
+.filters-list__btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -928,16 +928,16 @@ fill: #FFFFFF;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.margin-for-our-projects-buttons {
+.filters-list__item {
   margin-right: 8px;
 }
 
-.marketing-button {
-  margin-right: 0px;
+.filters-list__item:last-child {
+margin-right: 0px;
 }
 
-.our-projects-filters:hover,
-.our-projects-filters:focus {
+.filters-list__btn:hover,
+.filters-list__btn:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -945,29 +945,29 @@ fill: #FFFFFF;
 
 /* our projects section */
 
-.projects-img {
+.grid {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
 }
 
-.projects-item {
+.grid__item {
   flex-basis: calc(100% / 3 - 2 * 15px);
   margin: 15px;
 }
 
-.projects-items-text {
+.card-text {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
 
-.projects-item:hover {
+.grid__item:hover {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.our-projects-title {
+.card-text__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -975,7 +975,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   margin-bottom: 5px;
 }
 
-.our-projects-description {
+.card-text__description {
   color: #757575;
   font-size: 16px;
   line-height: 1.9;
@@ -983,15 +983,15 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   font-weight: normal;
 }
 
-.thumb {
+.card-img {
   overflow: hidden;
   position: relative;
 }
 
-.projects-item:hover .projects-description-overlay {
+.grid__item:hover .card-img__text-overlay {
   transform: translateY(0);
 }
-.projects-description-overlay {
+.card-img__text-overlay {
   padding: 63px 24px;
   position: absolute;
   font-style: normal;
