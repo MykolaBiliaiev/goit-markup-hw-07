@@ -1,0 +1,133 @@
+.footer {
+background-color: #2f303a;
+padding-top: 60px;
+padding-bottom: 60px;
+display: flex;
+justify-content: space-between;
+}
+
+.footer__content {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
+
+.footer-contacts__item:not(:last-child) {
+margin-bottom: 9px;
+}
+
+.footer-contacts__location {
+color: #ffffff;
+font-size: 14px;
+line-height: 1.7;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+margin-bottom: 9px;
+margin-top: 20px;
+}
+
+.footer-contacts__connection {
+color: rgba(255, 255, 255, 0.6);
+letter-spacing: 0.03em;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+}
+
+.footer-social-media {
+width: 206px;
+margin-right: auto;
+margin-left: 70px;
+margin-top: 12px;
+}
+
+.join-us-title {
+color: #ffffff;
+text-transform: uppercase;
+margin-bottom: 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+}
+
+.footer-subscribe-zone {
+display: flex;
+width: 570px;
+margin-top: 12px;
+margin-left: 93px;
+}
+
+.footer-subscribe-zone__title {
+display: block;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.footer-subscribe-zone__email-input {
+width: 358px;
+height: 50px;
+background-color: transparent;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+padding: 15px;
+color: orange;
+}
+
+.footer-subscribe-zone__email-input::placeholder {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-btn {
+position: relative;
+width: 200px;
+height: 50px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: white;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+margin-top: 36px;
+margin-left: 12px;
+}
+
+.subscribe-btn__text {
+position: absolute;
+left: 29px;
+top: 10px;
+}
+
+.subscribe-btn__icon {
+position: absolute;
+right: 28px;
+top: 13px;
+margin-left: 10px;
+fill: #FFFFFF;
+}

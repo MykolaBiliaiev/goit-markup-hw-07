@@ -66,7 +66,7 @@
                 <button data-modal-close class="modal__close"></button>
                 <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
 
-                <form action="#" class="modal-form">
+                <form action="#" class="modal_form">
                     <label  class="modal-form__titles">Имя</label>
                     <div class="user-name-div">
                         <input type="text" name="user-name" id="user-name-input" required class="modal-form__input">
@@ -100,10 +100,10 @@
                     </label>
 
                     <label>
-                        <input class="signing-the-contract-checbox" type="checkbox" name="signing-the-contract">
-                        <span class="signing-the-contract-checbox-icon"></span>
-                        <span class="modal-contract-checkbox"> Соглашаюсь с рассылкой и принимаю <a href=""
-                                class="contract-blue">Условия договора</a> </span>
+                        <input class="checkbox" type="checkbox" name="signing-the-contract">
+                        <span class="checkbox__icon"></span>
+                        <span class="checkbox__text"> Соглашаюсь с рассылкой и принимаю 
+                            <a href="" class="checkbox__text--blue">Условия договора</a> </span>
 
                     </label>
 
@@ -398,16 +398,19 @@
 
                 <address class="">
                     <ul class="footer-contacts  list">
-                        <li class="footer-contacts__location">
+                        <li class="footer-contacts__location footer-contacts__item">
                             <a href="https://www.google.se/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+Ukraine,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
-                                target="_blank" rel="noopener noreferre" class="location-link link">
+                                target="_blank" rel="noopener noreferre" class="link">
                                 Киев, пр-т Леси Украинки, 26
                             </a>
                         </li>
 
-                        <li class="footer-contacts__mail"><a href="mailto:info@example.com"
-                                class="footer-contacts__mail footer-contacts__style link">info@example.com</a></li>
-                        <li><a href="tel:+380991111111" class="footer-contacts__style link ">+380991111111</a></li>
+                        <li class="footer-contacts__item footer-contacts__mail"><a href="mailto:info@example.com"
+                                class="footer-contacts__connection  link">info@example.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+380991111111" class="footer-contacts__connection footer-contacts__item  link ">+380991111111</a>
+                        </li>
                     </ul>
                 </address>
             </div>
